@@ -5,13 +5,12 @@
 ====================================================
 # 目前进度
 屏幕画面显示花屏，无法使用，看logcat日志: 0 E         : [drm:sde_encoder_underrun_callback:3816] [sde error]underrun: 11600 应该还是内核问题，连带触摸也有问题  
+
+
 所以需要修改内核才能使用，不过我就这三脚猫能力目前不知道咋改内核
 目前只能通过命令的方式  
 # 如何使用
-进入[Release](https://github.com/RainGreenleaf/OFRP-device_xiaomi_dagu/releases)中，点开Assets选项，点击7z压缩包文件名下载  
-解压所有文件后，打开解压出的文件夹，运行recovery-twrp一键刷入工具.bat根据提示刷入，如果adb连接设备成功会自动重启进入recovery  
-刷入工具脚本，感谢wzsx150大佬  
-
+进入[Release](https://github.com/RainGreenleaf/OFRP-device_xiaomi_dagu/releases)下.img用工具临时刷入
 # 如何构建
 下载OFRP源代码，克隆这个仓库放到相应的位置  
 例如OFRP源代码根目录为~/fox_12.1，则保存为~/fox_12.1/device/xiaomi/dagu/:  
