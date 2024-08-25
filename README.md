@@ -2,6 +2,9 @@
 使用小米平板 5 Pro 12.4 ，HyperOS（安卓14）制作，适用于橙狐安卓12分支  
 
 ![OFRP](https://image.ibb.co/cTMWux/logo.jpg "OFRP")  
+
+参考来自[ymdzq](https://github.com/ymdzq/OFRP-device_xiaomi_elish.git)的修改
+
 ====================================================
 # 目前进度
 屏幕画面显示花屏，无法使用，看logcat日志: 0 E         : [drm:sde_encoder_underrun_callback:3816] [sde error]underrun: 11600 应该还是内核问题，连带触摸也有问题  
